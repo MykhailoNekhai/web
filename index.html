@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <title>Buy List</title>
     <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
 </head>
 <body>
-
 <div class="container">
     <div class="left-column">
         <div class="add-item">
@@ -14,54 +14,18 @@
             <button data-tooltip="Додати товар">Додати</button>
         </div>
 
-        <div class="item-list">
-            <span class="item-name bought-text">Помідори</span>
-            <div class="counter">
-                <button class="minus" data-tooltip="Зменшити">−</button>
-                <span class="number">2</span>
-                <button class="plus" data-tooltip="Збільшити">+</button>
-            </div>
-            <button class="status" data-tooltip="Позначити">Не куплено</button>
-            <button class="delete" data-tooltip="Видалити">×</button>
-        </div>
-
-        <div class="item-list">
-            <span class="item-name">Печиво</span>
-            <div class="counter">
-                <button class="minus" data-tooltip="Зменшити">−</button>
-                <span class="number">2</span>
-                <button class="plus" data-tooltip="Збільшити">+</button>
-            </div>
-            <button class="status" data-tooltip="Позначити">Куплено</button>
-            <button class="delete" data-tooltip="Видалити">×</button>
-        </div>
-
-        <div class="item-list">
-            <span class="item-name">Сир</span>
-            <div class="counter">
-                <button class="minus" data-tooltip="Зменшити">−</button>
-                <span class="number">1</span>
-                <button class="plus" data-tooltip="Збільшити">+</button>
-            </div>
-            <button class="status" data-tooltip="Позначити">Куплено</button>
-            <button class="delete" data-tooltip="Видалити">×</button>
-        </div>
+        <div class="item-list"></div>
     </div>
 
     <div class="right-column">
         <div class="summary-section">
             <h2>Залишилося</h2>
-            <div class="tags">
-                <span class="product-item">Печиво <span class="amount">2</span></span>
-                <span class="product-item">Сир <span class="amount">1</span></span>
-            </div>
+            <div class="tags"></div>
         </div>
 
         <div class="summary-section">
             <h2>Куплено</h2>
-            <div class="tags">
-                <span class="product-item bought-text">Помідори <span class="amount">2</span></span>
-            </div>
+            <div class="tags"></div>
         </div>
     </div>
 </div>
